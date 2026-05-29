@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dikshit Gupta | Cybersecurity Portfolio</title>
+  <title>Dixit Gupta | Cybersecurity Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;500;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
   <style>
@@ -32,7 +32,6 @@
       overflow-x: hidden;
     }
 
-    /* SCANLINE OVERLAY */
     body::before {
       content: '';
       position: fixed;
@@ -49,7 +48,6 @@
       z-index: 9999;
     }
 
-    /* NOISE TEXTURE */
     body::after {
       content: '';
       position: fixed;
@@ -61,7 +59,6 @@
       opacity: 0.4;
     }
 
-    /* NAVBAR */
     nav {
       position: fixed;
       top: 0; left: 0;
@@ -102,7 +99,6 @@
     }
     .nav-links a:hover { color: var(--cyan); }
 
-    /* HERO */
     #home {
       min-height: 100vh;
       display: flex;
@@ -243,7 +239,6 @@
       text-transform: uppercase;
     }
 
-    /* SECTIONS */
     section { padding: 100px 5%; }
 
     .section-header {
@@ -273,7 +268,6 @@
       margin: 16px auto 0;
     }
 
-    /* ABOUT */
     #about { background: var(--bg2); }
 
     .about-grid {
@@ -351,7 +345,6 @@
       clip-path: polygon(4px 0%, 100% 0%, calc(100% - 4px) 100%, 0% 100%);
     }
 
-    /* SKILLS */
     #skills { background: var(--bg); }
 
     .skills-grid {
@@ -406,7 +399,6 @@
       color: var(--text);
     }
 
-    /* PROJECTS */
     #projects { background: var(--bg2); }
 
     .projects-grid {
@@ -494,7 +486,6 @@
     }
     .proj-link:hover { color: var(--green); }
 
-    /* THM SECTION */
     #ctf { background: var(--bg); }
 
     .thm-container { max-width: 900px; margin: 0 auto; }
@@ -565,7 +556,6 @@
       letter-spacing: 1px;
     }
 
-    /* CERTIFICATIONS */
     #certs { background: var(--bg2); }
 
     .certs-grid {
@@ -585,10 +575,7 @@
       transition: all 0.3s;
     }
     .cert-card:hover { border-color: rgba(0,255,136,0.4); transform: translateY(-4px); box-shadow: 0 10px 30px rgba(0,0,0,0.4); }
-    .cert-icon {
-      font-size: 2rem;
-      flex-shrink: 0;
-    }
+    .cert-icon { font-size: 2rem; flex-shrink: 0; }
     .cert-org {
       font-family: 'Share Tech Mono', monospace;
       font-size: 0.65rem;
@@ -609,7 +596,6 @@
       color: var(--dim);
     }
 
-    /* CONTACT */
     #contact { background: var(--bg); }
 
     .contact-wrapper {
@@ -643,6 +629,7 @@
       padding: 28px 20px;
       transition: all 0.3s;
       text-decoration: none;
+      display: block;
     }
     .contact-card:hover { border-color: var(--cyan); transform: translateY(-4px); box-shadow: var(--glow); }
     .contact-card-icon { font-size: 1.8rem; margin-bottom: 12px; }
@@ -660,7 +647,6 @@
       color: var(--cyan);
     }
 
-    /* FOOTER */
     footer {
       background: #030608;
       border-top: 1px solid var(--border);
@@ -680,7 +666,6 @@
       color: var(--dim);
     }
 
-    /* ANIMATIONS */
     .fade-in { opacity: 0; transform: translateY(30px); transition: all 0.7s ease; }
     .fade-in.visible { opacity: 1; transform: translateY(0); }
 
@@ -692,7 +677,6 @@
     }
     .glitch:hover { animation: glitch 0.3s steps(2) 1; }
 
-    /* RESPONSIVE */
     @media (max-width: 768px) {
       .about-grid { grid-template-columns: 1fr; }
       .contact-cards { grid-template-columns: 1fr; }
@@ -729,7 +713,7 @@
     <div class="hero-tag">SECURITY RESEARCHER · DELHI, INDIA</div>
 
     <h1>
-      <span class="name-white">DIKSHIT</span><br>
+      <span class="name-white">DIXIT</span><br>
       <span class="name-cyan glitch">GUPTA</span>
     </h1>
 
@@ -786,7 +770,7 @@
       </div>
       <div class="terminal-body">
         <div><span class="t-prompt">jack0@kali</span><span class="t-cmd"> $ whoami</span></div>
-        <div style="margin:8px 0 16px"><span class="t-val">Dikshit Gupta (Dixit Gupta)</span></div>
+        <div style="margin:8px 0 16px"><span class="t-val">Dixit Gupta</span></div>
 
         <div><span class="t-prompt">jack0@kali</span><span class="t-cmd"> $ cat profile.json</span></div>
         <div style="margin-top:8px">
@@ -797,7 +781,7 @@
           &nbsp;&nbsp;<span class="t-val">"Rajdhani College, Delhi University"</span><br>
           &nbsp;&nbsp;<span class="t-comment">// Cyber Security & Ethical Hacking</span><br>
           &nbsp;&nbsp;<span class="t-val">"M Cyber Academy"</span><br>
-          <span class="t-key">"github"</span><span class="t-val">: "guptajidikshit2908"</span><br>
+          <span class="t-key">"github"</span><span class="t-val">: "guptajidikshit2908-oss"</span><br>
           <span class="t-key">"lab"</span><span class="t-val">: "Kali Linux + Win11 (VirtualBox)"</span><br>
           <span class="t-key">"status"</span><span class="t-val">: </span><span class="t-prompt">"ACTIVELY_HUNTING"</span>
         </div>
@@ -850,7 +834,6 @@
         <span class="skill-tag">Netcat</span>
       </div>
     </div>
-
     <div class="skill-card fade-in">
       <div class="skill-icon">🛡️</div>
       <h4>DEFENSIVE / SOC</h4>
@@ -863,7 +846,6 @@
         <span class="skill-tag">Incident Response</span>
       </div>
     </div>
-
     <div class="skill-card fade-in">
       <div class="skill-icon">💻</div>
       <h4>SCRIPTING / DEV</h4>
@@ -876,7 +858,6 @@
         <span class="skill-tag">Git / GitHub</span>
       </div>
     </div>
-
     <div class="skill-card fade-in">
       <div class="skill-icon">🔍</div>
       <h4>RECON &amp; OSINT</h4>
@@ -889,7 +870,6 @@
         <span class="skill-tag">Google Dorking</span>
       </div>
     </div>
-
     <div class="skill-card fade-in">
       <div class="skill-icon">🖥️</div>
       <h4>ENVIRONMENT</h4>
@@ -901,7 +881,6 @@
         <span class="skill-tag">Dual-VM Lab</span>
       </div>
     </div>
-
     <div class="skill-card fade-in">
       <div class="skill-icon">🔐</div>
       <h4>CRYPTO &amp; FORENSICS</h4>
@@ -942,7 +921,7 @@
         </div>
       </div>
       <div class="project-footer">
-        <a href="https://github.com/guptajidikshit2908" class="proj-link" target="_blank">→ GitHub</a>
+        <a href="https://github.com/guptajidikshit2908-oss" class="proj-link" target="_blank">→ GitHub</a>
       </div>
     </div>
 
@@ -962,7 +941,7 @@
         </div>
       </div>
       <div class="project-footer">
-        <a href="https://github.com/guptajidikshit2908" class="proj-link" target="_blank">→ GitHub</a>
+        <a href="https://github.com/guptajidikshit2908-oss" class="proj-link" target="_blank">→ GitHub</a>
       </div>
     </div>
 
@@ -982,7 +961,7 @@
         </div>
       </div>
       <div class="project-footer">
-        <a href="https://github.com/guptajidikshit2908" class="proj-link" target="_blank">→ GitHub</a>
+        <a href="https://github.com/guptajidikshit2908-oss" class="proj-link" target="_blank">→ GitHub</a>
       </div>
     </div>
 
@@ -1070,7 +1049,6 @@
         <a href="https://github.com/guptajidikshit2908-oss" class="proj-link" target="_blank">→ GitHub</a>
       </div>
     </div>
-
   </div>
 </section>
 
@@ -1093,62 +1071,14 @@
     </div>
 
     <div class="rooms-grid">
-      <div class="room-item fade-in">
-        <div class="room-icon">👻</div>
-        <div>
-          <div class="room-name">GhostCat</div>
-          <div class="room-tag">CVE-2020-1938 · AJP · GTFOBins</div>
-        </div>
-      </div>
-      <div class="room-item fade-in">
-        <div class="room-icon">🏴‍☠️</div>
-        <div>
-          <div class="room-name">Bounty Hacker</div>
-          <div class="room-tag">FTP · Hydra SSH · Privesc</div>
-        </div>
-      </div>
-      <div class="room-item fade-in">
-        <div class="room-icon">🔓</div>
-        <div>
-          <div class="room-name">Brute It</div>
-          <div class="room-tag">GoBuster · Hydra HTTP · RSA Crack</div>
-        </div>
-      </div>
-      <div class="room-item fade-in">
-        <div class="room-icon">🧩</div>
-        <div>
-          <div class="room-name">Simple CTF</div>
-          <div class="room-tag">Web Enum · SQLi · Shell</div>
-        </div>
-      </div>
-      <div class="room-item fade-in">
-        <div class="room-icon">🔍</div>
-        <div>
-          <div class="room-name">Missing Person</div>
-          <div class="room-tag">OSINT · EXIF · Geolocation</div>
-        </div>
-      </div>
-      <div class="room-item fade-in">
-        <div class="room-icon">📡</div>
-        <div>
-          <div class="room-name">Wazuh SIEM</div>
-          <div class="room-tag">SOC · Log Analysis · Detection</div>
-        </div>
-      </div>
-      <div class="room-item fade-in">
-        <div class="room-icon">🔒</div>
-        <div>
-          <div class="room-name">Easy Peasy</div>
-          <div class="room-tag">Steganography · Hash · CTF</div>
-        </div>
-      </div>
-      <div class="room-item fade-in">
-        <div class="room-icon">🏢</div>
-        <div>
-          <div class="room-name">Jr. SOC Analyst Intro</div>
-          <div class="room-tag">SOC Level 1 · Triage · Alerts</div>
-        </div>
-      </div>
+      <div class="room-item fade-in"><div class="room-icon">👻</div><div><div class="room-name">GhostCat</div><div class="room-tag">CVE-2020-1938 · AJP · GTFOBins</div></div></div>
+      <div class="room-item fade-in"><div class="room-icon">🏴‍☠️</div><div><div class="room-name">Bounty Hacker</div><div class="room-tag">FTP · Hydra SSH · Privesc</div></div></div>
+      <div class="room-item fade-in"><div class="room-icon">🔓</div><div><div class="room-name">Brute It</div><div class="room-tag">GoBuster · Hydra HTTP · RSA Crack</div></div></div>
+      <div class="room-item fade-in"><div class="room-icon">🧩</div><div><div class="room-name">Simple CTF</div><div class="room-tag">Web Enum · SQLi · Shell</div></div></div>
+      <div class="room-item fade-in"><div class="room-icon">🔍</div><div><div class="room-name">Missing Person</div><div class="room-tag">OSINT · EXIF · Geolocation</div></div></div>
+      <div class="room-item fade-in"><div class="room-icon">📡</div><div><div class="room-name">Wazuh SIEM</div><div class="room-tag">SOC · Log Analysis · Detection</div></div></div>
+      <div class="room-item fade-in"><div class="room-icon">🔒</div><div><div class="room-name">Easy Peasy</div><div class="room-tag">Steganography · Hash · CTF</div></div></div>
+      <div class="room-item fade-in"><div class="room-icon">🏢</div><div><div class="room-name">Jr. SOC Analyst Intro</div><div class="room-tag">SOC Level 1 · Triage · Alerts</div></div></div>
     </div>
   </div>
 </section>
@@ -1170,7 +1100,6 @@
         <div class="cert-year">2024–2025 · IN PROGRESS</div>
       </div>
     </div>
-
     <div class="cert-card fade-in">
       <div class="cert-icon">🏆</div>
       <div>
@@ -1179,7 +1108,6 @@
         <div class="cert-year">2024–2025 · 40+ ROOMS</div>
       </div>
     </div>
-
     <div class="cert-card fade-in">
       <div class="cert-icon">🎓</div>
       <div>
@@ -1188,7 +1116,6 @@
         <div class="cert-year">RAJDHANI COLLEGE · FINAL YEAR</div>
       </div>
     </div>
-
     <div class="cert-card fade-in">
       <div class="cert-icon">📚</div>
       <div>
@@ -1207,16 +1134,16 @@
     <p class="contact-sub">Open to SOC Analyst roles, Junior Pentesting internships, and CTF collaborations</p>
 
     <div class="contact-cards">
-      <a href="https://github.com/guptajidikshit2908" target="_blank" class="contact-card">
+      <a href="https://github.com/guptajidikshit2908-oss" target="_blank" class="contact-card">
         <div class="contact-card-icon">🐙</div>
         <div class="contact-card-label">GITHUB</div>
-        <div class="contact-card-val">guptajidikshit2908</div>
+        <div class="contact-card-val">guptajidikshit2908-oss</div>
       </a>
 
-      <a href="https://www.linkedin.com/in/" target="_blank" class="contact-card">
+      <a href="https://www.linkedin.com/in/dikshit-gupta-2b840240b" target="_blank" class="contact-card">
         <div class="contact-card-icon">💼</div>
         <div class="contact-card-label">LINKEDIN</div>
-        <div class="contact-card-val">Dikshit Gupta</div>
+        <div class="contact-card-val">Dixit Gupta</div>
       </a>
 
       <a onclick="copyEmail()" class="contact-card" style="cursor:pointer" title="Click to copy email">
@@ -1226,7 +1153,7 @@
       </a>
     </div>
 
-    <a onclick="copyEmail()" class="btn-primary" style="display:inline-block; margin-top: 10px; cursor:pointer" title="Click to copy email">
+    <a onclick="copyEmail()" class="btn-primary" style="display:inline-block; margin-top: 10px; cursor:pointer">
       ✉ START A CONVERSATION
     </a>
     <p id="copy-msg" style="font-family:Share Tech Mono,monospace;font-size:0.75rem;color:#00ff88;margin-top:12px;display:none;">
@@ -1237,22 +1164,14 @@
 
 <!-- FOOTER -->
 <footer>
-  <div class="footer-logo">DIKSHIT GUPTA // JACK0</div>
+  <div class="footer-logo">DIXIT GUPTA // JACK0</div>
   <div class="footer-copy">© 2025 · Built with Bash, HTML &amp; late nights · New Delhi, India</div>
 </footer>
 
 <script>
-  // TYPEWRITER
-  const roles = [
-    "SOC Analyst (Aspiring)",
-    "Junior Pentester",
-    "CTF Player",
-    "Security Researcher",
-    "Ethical Hacker"
-  ];
+  const roles = ["SOC Analyst (Aspiring)","Junior Pentester","CTF Player","Security Researcher","Ethical Hacker"];
   let ri = 0, ci = 0, deleting = false;
   const el = document.getElementById('typewriter');
-
   function type() {
     const cur = roles[ri];
     if (!deleting) {
@@ -1266,18 +1185,17 @@
   }
   type();
 
-  // COPY EMAIL
   function copyEmail() {
     const email = 'guptajidikshit2908@gmail.com';
     if (navigator.clipboard) {
       navigator.clipboard.writeText(email).then(() => showCopied());
     } else {
-      const el = document.createElement('textarea');
-      el.value = email;
-      document.body.appendChild(el);
-      el.select();
+      const t = document.createElement('textarea');
+      t.value = email;
+      document.body.appendChild(t);
+      t.select();
       document.execCommand('copy');
-      document.body.removeChild(el);
+      document.body.removeChild(t);
       showCopied();
     }
   }
@@ -1288,13 +1206,11 @@
     if (val) { val.textContent = '✓ Copied!'; setTimeout(() => val.textContent='guptajidikshit2908@gmail.com', 3000); }
   }
 
-  // INTERNAL SCROLL — fixes Claude preview anchor issue
   function jumpTo(id) {
     const el = document.getElementById(id);
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
-  // FADE IN ON SCROLL
   const obs = new IntersectionObserver(entries => {
     entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
   }, { threshold: 0.15 });
